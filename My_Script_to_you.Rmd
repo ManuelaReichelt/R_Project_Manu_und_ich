@@ -1,0 +1,23 @@
+---
+title: "My Letter to you"
+author: "Inga Blunk"
+date: "15 5 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Hallo Manu! Unten findest du ein paar INfos und Beispiele zu R Markdown:
+
+## R Markdown
+
+### Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
